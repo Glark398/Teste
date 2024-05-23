@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro de Ingresso</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div>
+          <div>
+            <h1>Dados do ingresso</h1>
+          </div>
+          <div>
+            <form action="connect.php" method="post" id="ticketForm">
+              <div>
+                <label for="ticketName">Nome do ingresso:</label>
+                <input
+                  type="text"
+                  name="ticketName"
+                />
+              </div>
+              <div>
+                <label for="ticketDescription">Descrição:</label>
+                <input
+                  type="text"
+                  name="ticketDescription"
+                />
+              </div>
+              <div>
+                <label for="ticketPrice">Preço:</label>
+                <input
+                  type="number"
+                  name="ticketPrice"
+                />
+              </div>
+              <div>
+                <label for="ticketImage">Imagem</label>
+                <input
+                  type="file"
+                  name="ticketImage"
+                />
+              </div>
+              <input type="submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
